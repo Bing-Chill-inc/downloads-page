@@ -105,10 +105,6 @@ const AppDownloadPage = () => {
 				>
 					Télécharger
 				</div>
-
-				{/* <a href={downloadLink}>
-					Download for {os} {arch}
-				</a> */}
 			</div>
 		</div>
 	);

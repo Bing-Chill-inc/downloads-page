@@ -38,7 +38,7 @@ const instructions = {
 					position: "relative",
 				}}
 			>
-				xattr -d com.apple.quarantine /Application/algoforge-electron
+				xattr -d com.apple.quarantine /Applications/algoforge-electron.app/
 				<svg
 					style={{
 						width: "1rem",
@@ -53,7 +53,9 @@ const instructions = {
 					viewBox="0 0 24 24"
 					xmlns="http://www.w3.org/2000/svg"
 					onClick={() => {
-						navigator.clipboard.writeText("xattr -d com.apple.quarantine /Application/algoforge-electron");
+						navigator.clipboard.writeText(
+							"xattr -d com.apple.quarantine /Applications/algoforge-electron.app/"
+						);
 						alert("Copié dans le presse-papier");
 					}}
 				>
