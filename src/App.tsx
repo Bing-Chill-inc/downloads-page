@@ -48,7 +48,7 @@ const AppDownloadPage = () => {
 					paddingBottom: "2rem",
 				}}
 			>
-				<h1>Download Algoforge</h1>
+				<h1>Télécharger Algoforge</h1>
 
 				<div style={{ display: "flex", flexDirection: "row", justifyContent: "center", gap: "4rem" }}>
 					<div style={{ display: "flex", flexDirection: "column" }}>
