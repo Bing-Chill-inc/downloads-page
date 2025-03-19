@@ -45,7 +45,7 @@ const AppDownloadPage = () => {
 					backgroundColor: "#E5EAF0",
 					borderRadius: "1rem",
 					position: "relative",
-					paddingBottom: "2rem",
+					paddingBottom: "6rem",
 				}}
 			>
 				<h1>Télécharger Algoforge</h1>
